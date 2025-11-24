@@ -1,5 +1,5 @@
 # Use pgvector/pgvector:pg16 as the base image which already has pgvector installed
-FROM pgvector/pgvector:pg16
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/pgvector/pgvector:pg16
 
 # Set DEBIAN_FRONTEND to noninteractive to prevent interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
